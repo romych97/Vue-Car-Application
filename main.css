@@ -1,0 +1,109 @@
+.detailed-car-image {
+  max-width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.phone-block {
+  height: 36px;
+}
+
+.modal {
+ display: block !important;
+}
+
+div#carousel {
+    border-bottom: 2px solid #007bff;
+}
+
+h1 {
+    font-size: 25px !important;
+    font-weight: 800 !important;
+    font-family: sans-serif;
+    padding: 20px 50px;
+    border-bottom: 1px solid #007bff;
+}
+
+.breadcrumb-item.active {
+    color: #ffffff !important;
+}
+
+.noDot {
+      list-style: none;
+}
+
+img.d-block.w-100 {
+    height: 600px;
+    object-fit: cover;
+}
+
+ol.breadcrumb {
+      background-color: #58a6fa !important;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px 15px 0px 15px;
+}
+
+div#app {
+  margin: 0px !important;
+  padding: 0px !important;
+  max-width: 100%;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+div#app {
+    overflow: hidden;
+}
+
+.phone-enter-active, .phone-leave-active {
+  transition: all .5s;
+}
+
+.phone-enter, .phone-leave-to {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+
+
+
+.modal-enter-active, .modal-leave-active {
+  transition: all .5s;
+}
+
+.modal-enter, .modal-leave-to {
+  transform: translateY(-100px);
+
+}
+
+
+
+
+.fade-enter-active {
+  animation: .75s fade forwards;
+}
+
+.fade-leave-active {
+ animation: .75s fade reverse;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .5;
+  }
+}
